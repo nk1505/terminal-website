@@ -31,22 +31,6 @@ export const email = async (args: string[]): Promise<string> => {
   return 'Opening mail@nejckrasevec.si...';
 };
 
-export const vi = async (args: string[]): Promise<string> => {
-  return `Why use vi? Try 'nano'.`;
-};
-
-export const vim = async (args: string[]): Promise<string> => {
-  return `Why use vim? Try 'nano'.`;
-};
-
-export const nano = async (args: string[]): Promise<string> => {
-  return `You have read only permission.`;
-};
-
-export const emacs = async (args?: string[]): Promise<string> => {
-  return `Really? Emacs? You should be using 'nano'`;
-};
-
 export const sudo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
@@ -87,11 +71,6 @@ export const cv = async (args?: string[]): Promise<string> => {
   return 'Opening CV...';
 };
 
-export const bereal = async (args?: string[]): Promise<string> => {
-  window.open('https://url.nejckrasevec.si/bereal', '_blank');
-
-  return 'Opening Bereal...';
-};
 
 export const banner = (args?: string[]): string => {
   return `

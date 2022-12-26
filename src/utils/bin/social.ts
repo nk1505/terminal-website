@@ -1,9 +1,9 @@
 import config from '../../../config.json';
 
-export const instagram = async (args: string[]): Promise<string> => {
-  window.open(`https://url.nejckrasevec.si/instagram`);
+export const social_media = async (args: string[]): Promise<string> => {
+  window.open(`https://social.nejckrasevec.si`);
 
-  return 'Opening Instagram...';
+  return 'Opening Social media website...';
 };
 
 export const github = async (args: string[]): Promise<string> => {
@@ -16,28 +16,4 @@ export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://url.nejckrasevec.si/linkedin`);
 
   return 'Opening Linkedin...';
-};
-
-export const spotify = async (args: string[]): Promise<string> => {
-  window.open(`https://url.nejckrasevec.si/spotify`);
-
-  return 'Opening Spotify...';
-};
-
-export const snapchat = async (args: string[]): Promise<string> => {
-  window.open(`https://url.nejckrasevec.si/snapchat`);
-
-  return 'Opening Snapchat...';
-};
-
-export const discord = async (args: string[]): Promise<string> => {
-  window.open(`https://url.nejckrasevec.si/discord`);
-
-  return 'Opening Discord...';
-};
-
-export const spotifystats = async (args: string[]): Promise<string> => {
-  window.open(`https://url.nejckrasevec.si/spotifystats`);
-
-  return 'Opening Spotifystatistic...';
 };
